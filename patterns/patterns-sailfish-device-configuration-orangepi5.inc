@@ -1,8 +1,8 @@
-%package -n patterns-sailfish-device-configuration-pinephonepro
+%package -n patterns-sailfish-device-configuration-orangepi5
 Summary: Sailfish Configuration Pinephone Pro
 
-Requires: patterns-sailfish-device-configuration-common-pinephonepro
-Requires: patterns-sailfish-device-adaptation-pinephonepro
+Requires: patterns-sailfish-device-configuration-common-orangepi5
+Requires: patterns-sailfish-device-adaptation-orangepi5
 
 Requires: patterns-sailfish-cellular-apps
 Requires: patterns-sailfish-applications
@@ -64,7 +64,7 @@ Requires:   parted-new
 #Chum
 Recommends: sailfishos-chum-gui
 
-%description -n patterns-sailfish-device-configuration-pinephonepro
+%description -n patterns-sailfish-device-configuration-orangepi5
 Pattern with packages for pinephone pro configurations
 
-%files -n patterns-sailfish-device-configuration-pinephonepro
+%files -n patterns-sailfish-device-configuration-orangepi5

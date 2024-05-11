@@ -1,0 +1,5 @@
+bootargs=root=UUID=a907f761-225a-4924-ac54-920fc26d3344 rootfstype=ext4 rootwait rw console=ttyS2,1500000 console=tty1 cgroup_enable=cpuset cgroup_memory=1 cgroup_enable=memory swapaccount=1 systemd.unified_cgroup_hierarchy=0 quiet splash plymouth.ignore-serial-consoles
+fdtfile=rk3588s-orangepi-5.dtb
+overlay_prefix=rk3588
+overlays=orangepi-5-lcd2
+video=DSI-1:1280x720@60
